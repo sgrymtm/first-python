@@ -1,0 +1,3 @@
+pip freeze | grep bottle > requirements.txt 
+echo web: python app.py > Procfile 
+echo "python-3.6.2" > runtime.txt
